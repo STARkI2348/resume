@@ -21,26 +21,6 @@ ol {
   margin: 0 auto;
 }
 
-/* Main-content */
-
-.main-content {
-  display: flex;
-  flex-direction:column;
-  gap: 40px;
-  padding: 80px 40px 40px 88px;
-  box-sizing: border-box;
-}
-
-.my-descr-title,
-.tech-skills-title,
-.education-container-title,
-.sidebar-title{
-  color: #000;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: normal;
-  margin: 0px 0px 8px 0px;}
-
 /* Sidebar */
 
 .sidebar {
@@ -99,6 +79,26 @@ ol {
   line-height: 24px;
 }
 
+/* Main-content */
+
+.main-content {
+  display: flex;
+  flex-direction:column;
+  gap: 40px;
+  padding: 80px 40px 40px 88px;
+  box-sizing: border-box;
+}
+
+.my-descr-title,
+.tech-skills-title,
+.education-container-title,
+.sidebar-title{
+  color: #000;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0px 0px 8px 0px;}
+
 /* My info */
 
 .my-name {
@@ -146,6 +146,7 @@ ol {
 }
 
 /* Tech skills */
+
 .tech-skills-item{
   color: #000000;
     font-size: 16px;
