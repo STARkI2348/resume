@@ -2,6 +2,8 @@ body {
   background: #f6f6fa;
   padding: 40px, 40px, 40px, 40px;
   font-family: "Montserrat", sans-serif;
+  display: flex;
+  justify-content: center;
 }
 
 ul,
@@ -14,7 +16,8 @@ ol {
   background-color: #ffffff;
   display: flex;
   flex-direction: row-reverse;
-  width: 100%;
+  width: 1250px;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -24,46 +27,39 @@ ol {
   display: flex;
   flex-direction:column;
   gap: 40px;
-  padding-left: 88px;
-  padding-top: 80px;
-  padding-right: 40px;
-  padding-bottom: 80px;
+  padding: 80px 40px 40px 88px;
   box-sizing: border-box;
 }
 
 .my-descr-title,
 .tech-skills-title,
-.education-container-title{
+.education-container-title,
+.sidebar-title{
   color: #000;
   font-size: 22px;
   font-weight: 700;
-  line-height: 27px;
+  line-height: normal;
   margin: 0px 0px 8px 0px;}
 
 /* Sidebar */
 
 .sidebar {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
   background: #e0ebfe;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding: 40px 0px 40px 0px;
   box-sizing: border-box;
   width: 370px;
 }
 
 .sidebar-content {
-  padding-left: 40px;
-  padding-top: 40px;
-  padding-right: 40px;
-  box-sizing: border-box;
-}
-
-.sidebar-title {
-  color: #161d2a;
-  font-size: 22px;
-  font-weight: 700;
-  line-height: normal;
-  margin-top: 0px;
-  margin-bottom: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding: 0px 40px 0px 40px;
 }
 
 /* Contacts */
@@ -89,15 +85,7 @@ ol {
   margin-bottom: 8px;
 }
 
-.contacts-container {
-  margin-bottom: 40px;
-}
-
-/* Tech skills */
-
-.skills-container {
-  margin-bottom: 40px;
-}
+/* Skills */
 
 .skills-list {
   padding-left: 16px;
@@ -111,7 +99,7 @@ ol {
   line-height: 24px;
 }
 
-/* My contant */
+/* My info */
 
 .my-name {
   color: #000;
@@ -122,12 +110,31 @@ ol {
   padding: 0px;
 }
 
+.separatot{
+  color: #6d9bf5 ;
+}
+
 .my-profession {
   color: #000;
-  font-size: 26px;
+  font-size: 26px;  
   font-weight: 700;
-  margin-top: 0px;
-  margin-bottom: 8px;
+  margin: 0px 0px 12px 0px;
+}
+
+.birthday,
+.location {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
+.my-birthday{
+  margin: 0px 0px 8px 0px;
+}
+
+.my-location{
+  margin: 0px 0px 12px 0px;
 }
 
 .my-descr {
@@ -138,25 +145,41 @@ ol {
   margin: 0px;
 }
 
+/* Tech skills */
+.tech-skills-item{
+  color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0px;
+}
 
 /* Education */
+
+.education-container{
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
 
 .education-title {
   color: #6d9bf5;
   font-size: 16px;
   font-weight: 700;
   line-height: 20px;
-  margin: 0px 0px 8px 0px;
+  margin: 0px 0px 4px 0px;
 }
 
 .education-name {
   color: #000;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 700;
   line-height: normal;
-  margin: 0px 0px 8px 0px;
+  margin: 0px 0px 4px 0px;
 }
 
 .period{
+  font-size: 14px;
   margin: 0;
+  color: #242424;
 }
